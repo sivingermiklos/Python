@@ -1,0 +1,26 @@
+str.capitalize()        # Az első karaktert nagybetűvé alakítja
+str.swapcase() 	        # Kisbetűket cserél, a kisbetűkből nagybetűk lesznek, és fordítva
+str.title()             # Minden szó első karakterét nagybetűvé alakítja
+str.startswith()        # Igaz értéket ad vissza, ha a karakterlánc a megadott értékkel kezdődik
+str.endswith()	        # Igaz értéket ad vissza, ha a karakterlánc a megadott értékkel végződik
+str.find()	            # Megkeresi a karakterláncot egy megadott érték után, és visszaadja a keresés helyét
+str.rfind()		        # Megkeresi a karakterláncot egy megadott érték után, és visszaadja a keresési hely utolsó helyét
+str.index()             # Megkeresi a karakterláncot egy megadott érték után, és visszaadja a keresés helyét
+str.rindex()	        # Megkeresi a karakterláncot egy megadott érték után, és visszaadja a keresési hely utolsó helyét
+str.isalnum()	        # Igaz értéket ad vissza, ha a karakterlánc minden karaktere alfanumerikus
+str.isalpha()	        # Igaz értéket ad vissza, ha a karakterlánc összes karaktere szerepel az abc-ben
+str.isdecimal()	        # Igaz értéket ad vissza, ha a karakterlánc minden karaktere tizedesjegy
+str.isdigit()           # Igaz értéket ad vissza, ha a karakterlánc minden karaktere számjegy
+str.islower()	        # Igaz értéket ad vissza, ha a karakterlánc összes karaktere kisbetű
+str.isnumeric() 	    # Igaz értéket ad vissza, ha a karakterlánc minden karaktere numerikus
+str.isspace()           # Igaz értéket ad vissza, ha a karakterlánc minden karaktere szóköz
+str.istitle()	        # Igaz értéket ad vissza, ha a karakterlánc követi a cím szabályait
+str.isupper()	        # Igaz értéket ad vissza, ha a karakterlánc minden karaktere nagybetű
+str.join()   	        # Az iterálható elemeket karakterláncokká alakítja
+str.strip()             # A karakterlánc vágott változatát adja vissza
+str.lstrip()            # A karakterlánc bal oldali vágási változatát adja vissza
+str.rstrip()            # A karakterlánc jobb vágású változatát adja vissza
+str.split()             # Felosztja a karakterláncot a megadott elválasztónál, és egy listát ad vissza
+str.rsplit()            # Felosztja a karakterláncot a megadott elválasztónál, és egy listát ad vissza
+str.splitlines()        # Felosztja a karakterláncot sortöréseknél, és egy listát ad vissza
+       
