@@ -13,7 +13,7 @@ class Kutya:
     
     def ugat(self):
         print("Vau vau...")
-        playsound("D:/.suli/prgy/2022/0324bark.mp3")
+        playsound("D:/.suli/prgy/Python 2022/0324/bark.mp3")
         
 # Kutya osztályú objektumok létrehozása (példányosítás) -> 1 konkrét kutya
 enKutyam = Kutya("Bákszi","puli",2006)
